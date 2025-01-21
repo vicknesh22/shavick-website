@@ -421,6 +421,16 @@ section .header {
       background-size: cover;
     }
 }
+
+@media only screen and (max-width: 450px) { /* For small screens */
+  .hero {
+    background: url("../img/hero-min.jpg") no-repeat center center;
+    background-size: cover; 
+    background-position: top center; /* Focus on the top, adjust as needed */
+  }
+}
+
+
 .hero .down-arrow a {
   color: #fff;
 }
