@@ -458,6 +458,7 @@ section .header {
     margin-bottom: 60%; /* Adjusted for smaller screens */
     width: 70%;
     height: inherit;
+    margin-top: -70%;
   }
 }
 
