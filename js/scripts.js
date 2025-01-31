@@ -239,20 +239,24 @@ $(document).ready(function () {
 
 /********************** Extras **********************/
 
-// Google map
-function initMap() {
-    var location = {lat: 10.95130, lng: 79.82596};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: location,
-        scrollwheel: false
-    });
-
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
-    });
+// Google map  
+function initMap() {  
+    var location = {
+        lat: 10.951223101307429,
+        lng: 79.82594237116415
+    };  
+    var map = new google.maps.Map(document.getElementById('map-canvas'), {  
+        zoom: 15,  
+        center: location,  
+        scrollwheel: false  
+    });  
+  
+    var marker = new google.maps.Marker({  
+        position: location,  
+        map: map  
+    });  
 }
+
 
 function initBBSRMap() {
     var la_fiesta = {lat: 10.951038336802268, lng: 79.82154494032505};
