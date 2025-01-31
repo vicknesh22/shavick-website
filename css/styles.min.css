@@ -417,6 +417,8 @@ section .header {
   .hero {
     min-height: 100vh;
     background-position: center top;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -424,16 +426,22 @@ section .header {
   .hero {
     background-position: top center;
     background-size: 170%;/* Focus same part as much as possible across small devices */
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
 .hero .down-arrow a {
   color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .hero h1 {
   color: #fff;
   margin-bottom: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .hero p.intro {
@@ -441,16 +449,22 @@ section .header {
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 80px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .hero .hero-content {
   padding-top: 40%;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .hero .hero-content img {
   width: 65%;
   margin-bottom: 8%;
   height: inherit;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 450px) {
@@ -459,6 +473,8 @@ section .header {
     width: 70%;
     height: inherit;
     margin-top: -70%;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -556,6 +572,11 @@ header .member-actions {
   bottom: 30px;  
   left: 50%;  
   transform: translateX(-50%);  
+}
+@media only screen and (max-width: 768px) {
+  .down-arrow {
+    bottom: 10px; /* Adjust this value as needed for smaller screens */
+  }
 }
 
 .share-bar {  
